@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<trizbort version="1.5.8.0">
+	<info />
+	<map>
+		<room id="1" name="Outside Wrigley" x="-96" y="-64" w="96" h="64" region="Outside" description="" roomFill="#FFFFFF" secondFill="#FFFFFF" secondFillLocation="Bottom" roomBorder="#FFFFFF" roomLargeText="#FFFFFF" roomSmallText="#FFFFFF" />
+		<room id="2" name="Parking Lot" x="-256" y="-64" w="96" h="64" region="Outside" description="" roomFill="#FFFFFF" secondFill="#FFFFFF" secondFillLocation="Bottom" roomBorder="#FFFFFF" roomLargeText="#FFFFFF" roomSmallText="#FFFFFF" />
+		<line id="3">
+			<dock index="0" id="1" port="w" />
+			<dock index="1" id="2" port="e" />
+		</line>
+		<room id="4" name="Vendor Stalls" x="-256" y="-192" w="96" h="64" region="Outside" description="" roomFill="#FFFFFF" secondFill="#FFFFFF" secondFillLocation="Bottom" roomBorder="#FFFFFF" roomLargeText="#FFFFFF" roomSmallText="#FFFFFF" />
+		<line id="5">
+			<dock index="0" id="2" port="n" />
+			<dock index="1" id="4" port="s" />
+		</line>
+		<room id="6" name="Media Lot" x="-96" y="-192" w="96" h="64" region="Outside" description="" roomFill="#FFFFFF" secondFill="#FFFFFF" secondFillLocation="Bottom" roomBorder="#FFFFFF" roomLargeText="#FFFFFF" roomSmallText="#FFFFFF">
+			<objects>Vendor|Sox shirt|Cubs shirt</objects>
+		</room>
+		<line id="7">
+			<dock index="0" id="4" port="e" />
+			<dock index="1" id="6" port="w" />
+		</line>
+		<line id="8">
+			<dock index="0" id="6" port="s" />
+			<dock index="1" id="1" port="n" />
+		</line>
+		<line id="9">
+			<dock index="0" id="1" port="nw" />
+			<dock index="1" id="4" port="se" />
+		</line>
+		<line id="10">
+			<dock index="0" id="6" port="sw" />
+			<dock index="1" id="2" port="ne" />
+		</line>
+		<room id="11" name="Concourse Behind Home Plate" x="64" y="-192" w="96" h="64" region="NoRegion" description="" roomFill="#FFFFFF" secondFill="#FFFFFF" secondFillLocation="Bottom" roomBorder="#FFFFFF" roomLargeText="#FFFFFF" roomSmallText="#FFFFFF" />
+		<line id="12" style="dashed">
+			<dock index="0" id="1" port="ne" />
+			<dock index="1" id="11" port="sw" />
+		</line>
+		<room id="13" name="North Concourse" x="64" y="-448" w="96" h="64" region="NoRegion" description="" roomFill="#FFFFFF" secondFill="#FFFFFF" secondFillLocation="Bottom" roomBorder="#FFFFFF" roomLargeText="#FFFFFF" roomSmallText="#FFFFFF" />
+		<line id="14">
+			<dock index="0" id="11" port="n" />
+			<dock index="1" id="13" port="s" />
+		</line>
+		<room id="15" name="Northwest Concourse" x="64" y="-576" w="96" h="64" region="NoRegion" description="" roomFill="#FFFFFF" secondFill="#FFFFFF" secondFillLocation="Bottom" roomBorder="#FFFFFF" roomLargeText="#FFFFFF" roomSmallText="#FFFFFF" />
+		<line id="16">
+			<dock index="0" id="13" port="n" />
+			<dock index="1" id="15" port="s" />
+		</line>
+		<room id="17" name="South Concourse" x="384" y="-192" w="96" h="64" region="NoRegion" description="" roomFill="#FFFFFF" secondFill="#FFFFFF" secondFillLocation="Bottom" roomBorder="#FFFFFF" roomLargeText="#FFFFFF" roomSmallText="#FFFFFF" />
+		<line id="18">
+			<dock index="0" id="11" port="e" />
+			<dock index="1" id="17" port="w" />
+		</line>
+		<room id="19" name="Southeast Concourse" x="544" y="-192" w="96" h="64" region="NoRegion" description="" roomFill="#FFFFFF" secondFill="#FFFFFF" secondFillLocation="Bottom" roomBorder="#FFFFFF" roomLargeText="#FFFFFF" roomSmallText="#FFFFFF" />
+		<line id="20">
+			<dock index="0" id="17" port="e" />
+			<dock index="1" id="19" port="w" />
+		</line>
+		<room id="21" name="Right Field Bleachers" x="704" y="-320" w="96" h="64" region="NoRegion" description="" roomFill="#FFFFFF" secondFill="#FFFFFF" secondFillLocation="Bottom" roomBorder="#FFFFFF" roomLargeText="#FFFFFF" roomSmallText="#FFFFFF" />
+		<line id="22" style="dashed">
+			<dock index="0" id="19" port="ne" />
+			<dock index="1" id="21" port="sw" />
+		</line>
+		<room id="23" name="Nasty Dark Sewage Area" x="704" y="-192" w="96" h="64" region="Underground" description="" roomFill="#FFFFFF" secondFill="#FFFFFF" secondFillLocation="Bottom" roomBorder="#FFFFFF" roomLargeText="#FFFFFF" roomSmallText="#FFFFFF" />
+		<room id="24" name="Shaft" x="544" y="-64" w="96" h="64" region="Underground" description="" roomFill="#FFFFFF" secondFill="#FFFFFF" secondFillLocation="Bottom" roomBorder="#FFFFFF" roomLargeText="#FFFFFF" roomSmallText="#FFFFFF" />
+		<line id="25" flow="oneWay">
+			<dock index="0" id="23" port="sw" />
+			<dock index="1" id="24" port="ne" />
+		</line>
+		<room id="26" name="Stands Behind Home Plate" x="224" y="-320" w="96" h="64" region="NoRegion" description="" roomFill="#FFFFFF" secondFill="#FFFFFF" secondFillLocation="Bottom" roomBorder="#FFFFFF" roomLargeText="#FFFFFF" roomSmallText="#FFFFFF" />
+		<line id="27">
+			<dock index="0" id="11" port="ne" />
+			<dock index="1" id="26" port="sw" />
+		</line>
+		<room id="28" name="First Base Line" x="384" y="-320" w="96" h="64" region="NoRegion" description="" roomFill="#FFFFFF" secondFill="#FFFFFF" secondFillLocation="Bottom" roomBorder="#FFFFFF" roomLargeText="#FFFFFF" roomSmallText="#FFFFFF" />
+		<line id="29">
+			<dock index="0" id="26" port="e" />
+			<dock index="1" id="28" port="w" />
+		</line>
+		<room id="30" name="Third Base Line" x="224" y="-448" w="96" h="64" region="NoRegion" description="" roomFill="#FFFFFF" secondFill="#FFFFFF" secondFillLocation="Bottom" roomBorder="#FFFFFF" roomLargeText="#FFFFFF" roomSmallText="#FFFFFF" />
+		<line id="31">
+			<dock index="0" id="26" port="n" />
+			<dock index="1" id="30" port="s" />
+		</line>
+		<room id="32" name="Right Field Line" x="544" y="-320" w="96" h="64" region="NoRegion" description="" roomFill="#FFFFFF" secondFill="#FFFFFF" secondFillLocation="Bottom" roomBorder="#FFFFFF" roomLargeText="#FFFFFF" roomSmallText="#FFFFFF" />
+		<line id="33">
+			<dock index="0" id="28" port="e" />
+			<dock index="1" id="32" port="w" />
+		</line>
+		<room id="34" name="Left Field Line" x="224" y="-576" w="96" h="64" region="NoRegion" description="" roomFill="#FFFFFF" secondFill="#FFFFFF" secondFillLocation="Bottom" roomBorder="#FFFFFF" roomLargeText="#FFFFFF" roomSmallText="#FFFFFF" />
+		<line id="35">
+			<dock index="0" id="30" port="n" />
+			<dock index="1" id="34" port="s" />
+		</line>
+		<room id="36" name="The Field of Play" x="384" y="-576" w="256" h="192" region="Field" description="" roomFill="#FFFFFF" secondFill="#FFFFFF" secondFillLocation="Bottom" roomBorder="#FFFFFF" roomLargeText="#FFFFFF" roomSmallText="#FFFFFF" />
+		<line id="37">
+			<dock index="0" id="32" port="s" />
+			<dock index="1" id="19" port="n" />
+		</line>
+		<line id="38">
+			<dock index="0" id="34" port="w" />
+			<dock index="1" id="15" port="e" />
+		</line>
+		<line id="39">
+			<dock index="0" id="13" port="e" />
+			<dock index="1" id="30" port="w" />
+		</line>
+		<room id="40" name="Bend" x="544" y="64" w="96" h="64" region="Underground" description="" roomFill="#FFFFFF" secondFill="#FFFFFF" secondFillLocation="Bottom" roomBorder="#FFFFFF" roomLargeText="#FFFFFF" roomSmallText="#FFFFFF" />
+		<line id="41">
+			<dock index="0" id="24" port="s" />
+			<dock index="1" id="40" port="n" />
+		</line>
+		<room id="42" name="By the Clubhouse" x="704" y="-64" w="96" h="64" region="Underground" description="" roomFill="#FFFFFF" secondFill="#FFFFFF" secondFillLocation="Bottom" roomBorder="#FFFFFF" roomLargeText="#FFFFFF" roomSmallText="#FFFFFF" />
+		<line id="43">
+			<dock index="0" id="24" port="e" />
+			<dock index="1" id="42" port="w" />
+		</line>
+		<room id="44" name="Neglected Hovel" x="704" y="64" w="96" h="64" region="Underground" description="" roomFill="#FFFFFF" secondFill="#FFFFFF" secondFillLocation="Bottom" roomBorder="#FFFFFF" roomLargeText="#FFFFFF" roomSmallText="#FFFFFF" />
+		<line id="45">
+			<dock index="0" id="40" port="e" />
+			<dock index="1" id="44" port="w" />
+		</line>
+		<line id="46">
+			<dock index="0" id="28" port="s" />
+			<dock index="1" id="17" port="n" />
+		</line>
+		<room id="47" name="Men's Room" x="-96" y="-576" w="96" h="64" region="NoRegion" description="" roomFill="#FFFFFF" secondFill="#FFFFFF" secondFillLocation="Bottom" roomBorder="#FFFFFF" roomLargeText="#FFFFFF" roomSmallText="#FFFFFF" />
+		<line id="48">
+			<dock index="0" id="15" port="w" />
+			<dock index="1" id="47" port="e" />
+		</line>
+		<room id="49" name="Cramped Toilet Stall" x="-96" y="-448" w="96" h="64" region="NoRegion" description="" roomFill="#FFFFFF" secondFill="#FFFFFF" secondFillLocation="Bottom" roomBorder="#FFFFFF" roomLargeText="#FFFFFF" roomSmallText="#FFFFFF" />
+		<line id="50" style="dashed">
+			<dock index="0" id="47" port="s" />
+			<dock index="1" id="49" port="n" />
+		</line>
+		<room id="51" name="Middle Concourse" x="224" y="-64" w="96" h="64" region="NoRegion" description="" roomFill="#FFFFFF" secondFill="#FFFFFF" secondFillLocation="Bottom" roomBorder="#FFFFFF" roomLargeText="#FFFFFF" roomSmallText="#FFFFFF">
+			<objects>Sox fan</objects>
+		</room>
+		<line id="52" startText="up" endText="down">
+			<dock index="0" id="11" port="se" />
+			<dock index="1" id="51" port="nw" />
+		</line>
+		<room id="53" name="Upper Concourse" x="384" y="-64" w="96" h="64" region="NoRegion" description="" roomFill="#FFFFFF" secondFill="#FFFFFF" secondFillLocation="Bottom" roomBorder="#FFFFFF" roomLargeText="#FFFFFF" roomSmallText="#FFFFFF" />
+		<line id="54" style="dashed" startText="up" endText="down">
+			<dock index="0" id="51" port="e" />
+			<dock index="1" id="53" port="w" />
+		</line>
+		<room id="55" name="Addison East" x="64" y="-64" w="96" h="64" region="Outside" description="" roomFill="#FFFFFF" secondFill="#FFFFFF" secondFillLocation="Bottom" roomBorder="#FFFFFF" roomLargeText="#FFFFFF" roomSmallText="#FFFFFF">
+			<objects>Tape</objects>
+		</room>
+		<line id="56">
+			<dock index="0" id="1" port="e" />
+			<dock index="1" id="55" port="w" />
+		</line>
+	</map>
+	<settings>
+		<colors>
+			<canvas>White</canvas>
+			<fill>White</fill>
+			<border>MidnightBlue</border>
+			<line>MidnightBlue</line>
+			<selectedLine>Gold</selectedLine>
+			<hoverLine>DarkOrange</hoverLine>
+			<largeText>MidnightBlue</largeText>
+			<smallText>MidnightBlue</smallText>
+			<lineText>MidnightBlue</lineText>
+			<grid>#F5F5F5</grid>
+		</colors>
+		<regions>
+			<Field Name="Field" TextColor="MidnightBlue">Lime</Field>
+			<NoRegion Name="NoRegion" TextColor="Blue">White</NoRegion>
+			<Outside Name="Outside" TextColor="MidnightBlue">Silver</Outside>
+			<Underground Name="Underground" TextColor="MidnightBlue">Gray</Underground>
+			<Wrigley Name="Wrigley" TextColor="MidnightBlue">White</Wrigley>
+		</regions>
+		<fonts>
+			<room size="12">Arial</room>
+			<object size="9.75">Arial</object>
+			<line size="9">Comic Sans MS</line>
+		</fonts>
+		<grid>
+			<snapTo>yes</snapTo>
+			<visible>yes</visible>
+			<showOrigin>yes</showOrigin>
+			<size>32</size>
+		</grid>
+		<lines>
+			<width>2</width>
+			<handDrawn>yes</handDrawn>
+			<arrowSize>12</arrowSize>
+			<textOffset>4</textOffset>
+		</lines>
+		<rooms>
+			<darknessStripeSize>24</darknessStripeSize>
+			<objectListOffset>4</objectListOffset>
+			<connectionStalkLength>32</connectionStalkLength>
+			<preferredDistanceBetweenRooms>64</preferredDistanceBetweenRooms>
+		</rooms>
+		<ui>
+			<handleSize>12</handleSize>
+			<snapToElementSize>16</snapToElementSize>
+		</ui>
+		<keypadNavigation>
+			<creationModifier>control</creationModifier>
+			<unexploredModifier>alt</unexploredModifier>
+		</keypadNavigation>
+	</settings>
+</trizbort>
