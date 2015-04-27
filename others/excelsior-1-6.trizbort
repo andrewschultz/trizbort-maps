@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<trizbort version="1.5.8.7">
+	<info />
+	<map>
+		<room id="1" name="Forest" subtitle="" x="-1088" y="-32" w="96" h="64" region="Level 1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="2" name="Bend in Path" subtitle="" x="-928" y="-32" w="96" h="64" region="Level 1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="3" flow="oneWay" startText="out" endText="in">
+			<dock index="0" id="1" port="e" />
+			<dock index="1" id="2" port="w" />
+		</line>
+		<room id="4" name="The Tower" subtitle="" x="-928" y="-160" w="96" h="64" region="Level 1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="5" flow="oneWay" startText="out" endText="in">
+			<dock index="0" id="2" port="n" />
+			<dock index="1" id="4" port="s" />
+		</line>
+		<room id="6" name="West Side" subtitle="" x="-1088" y="-288" w="96" h="64" region="Level 1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="7">
+			<dock index="0" id="4" port="w" />
+			<dock index="1" id="6" port="s" />
+		</line>
+		<room id="8" name="North Side" subtitle="" x="-928" y="-416" w="96" h="64" region="Level 1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="9">
+			<dock index="0" id="6" port="n" />
+			<dock index="1" id="8" port="w" />
+		</line>
+		<room id="10" name="East Side" subtitle="" x="-768" y="-288" w="96" h="64" region="Level 1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="11">
+			<dock index="0" id="8" port="e" />
+			<dock index="1" id="10" port="n" />
+		</line>
+		<line id="12">
+			<dock index="0" id="10" port="s" />
+			<dock index="1" id="4" port="e" />
+		</line>
+		<room id="13" name="Inside the Tower" subtitle="" x="-928" y="-288" w="96" h="64" region="Level 1" borderstyle="Dot" description="Put the sphere from level 2 on the pedestal." roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects>Pedestal|  Cube</objects>
+		</room>
+		<line id="14" style="dashed">
+			<dock index="0" id="4" port="n" />
+			<dock index="1" id="13" port="s" />
+		</line>
+		<room id="15" name="Second Level" subtitle="" x="-608" y="-288" w="96" h="64" region="Level 2" borderstyle="Dash" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="16" startText="up" endText="down">
+			<dock index="0" id="13" port="ne" />
+			<dock index="1" id="15" port="nw" />
+		</line>
+		<room id="17" name="North Corridor" subtitle="" x="-448" y="-416" w="96" h="64" region="Level 2" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="18">
+			<dock index="0" id="15" port="n" />
+			<dock index="1" id="17" port="w" />
+		</line>
+		<room id="19" name="South Corridor" subtitle="" x="-448" y="-160" w="96" h="64" region="Level 2" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects>Sphere (in niche)</objects>
+		</room>
+		<line id="20">
+			<dock index="0" id="15" port="s" />
+			<dock index="1" id="19" port="w" />
+		</line>
+		<room id="21" name="East Corridor" subtitle="" x="-288" y="-288" w="96" h="64" region="Level 2" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects>Cube (in niche)</objects>
+		</room>
+		<line id="22">
+			<dock index="0" id="17" port="e" />
+			<dock index="1" id="21" port="n" />
+		</line>
+		<line id="23">
+			<dock index="0" id="21" port="s" />
+			<dock index="1" id="19" port="e" />
+		</line>
+		<room id="24" name="Central Chamber" subtitle="" x="-448" y="-288" w="96" h="64" region="Level 2" borderstyle="Dot" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="25">
+			<dock index="0" id="17" port="s" />
+			<dock index="1" id="24" port="n" />
+		</line>
+		<line id="26">
+			<dock index="0" id="24" port="s" />
+			<dock index="1" id="19" port="n" />
+		</line>
+		<room id="27" name="Third Level" subtitle="" x="32" y="-160" w="96" h="64" region="Level 3" borderstyle="Dash" description="Put the 3 cubes in the holes to go north" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects>    Iron Door|    Holes</objects>
+		</room>
+		<room id="28" name="West Room" subtitle="" x="-128" y="-160" w="96" h="64" region="Level 3" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects>shards (USE BROOM)</objects>
+		</room>
+		<line id="29">
+			<dock index="0" id="27" port="w" />
+			<dock index="1" id="28" port="e" />
+		</line>
+		<room id="30" name="Bottom of Staircase" subtitle="" x="32" y="-288" w="96" h="64" region="Level 3" borderstyle="Dot" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="31" style="dashed">
+			<dock index="0" id="27" port="n" />
+			<dock index="1" id="30" port="s" />
+		</line>
+		<room id="32" name="Dusty Room" subtitle="" x="192" y="-160" w="96" h="64" region="Level 3" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects>dust (USE BROOM)</objects>
+		</room>
+		<line id="33">
+			<dock index="0" id="27" port="e" />
+			<dock index="1" id="32" port="w" />
+		</line>
+		<line id="34" startText="up" endText="down">
+			<dock index="0" id="24" port="se" />
+			<dock index="1" id="27" port="nw" />
+		</line>
+		<room id="35" name="South Room" subtitle="" x="32" y="-32" w="96" h="64" region="Level 3" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects>Pedestal</objects>
+		</room>
+		<line id="36" startText="up" endText="down">
+			<dock index="0" id="27" port="s" />
+			<dock index="1" id="35" port="n" />
+		</line>
+		<room id="37" name="Top of Stairs" subtitle="" x="32" y="224" w="96" h="64" region="Level 4" borderstyle="Dash" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="38" name="Statue Chamber" subtitle="" x="32" y="352" w="96" h="64" region="Level 4" borderstyle="Dot" description="U PLINTH.U HAND" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects>Plinth|  Hand</objects>
+		</room>
+		<line id="39" flow="oneWay">
+			<dock index="0" id="37" port="s" />
+			<dock index="1" id="38" port="n" />
+		</line>
+		<line id="40" startText="up" endText="down">
+			<dock index="0" id="30" port="se" />
+			<dock index="1" id="37" port="ne" />
+		</line>
+		<room id="41" name="Landing" subtitle="" x="-128" y="352" w="96" h="64" region="Level 5" borderstyle="Dash" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="42" startText="up" endText="down">
+			<dock index="0" id="38" port="w" />
+			<dock index="1" id="41" port="e" />
+		</line>
+		<room id="43" name="Balcony" subtitle="" x="192" y="352" w="96" h="64" region="Level 4" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="44">
+			<dock index="0" id="38" port="e" />
+			<dock index="1" id="43" port="w" />
+		</line>
+		<room id="45" name="Carpeted Hall" subtitle="" x="-128" y="224" w="96" h="64" region="Level 5" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="46">
+			<dock index="0" id="41" port="n" />
+			<dock index="1" id="45" port="s" />
+		</line>
+		<room id="47" name="North End of Hall" subtitle="" x="-128" y="96" w="96" h="64" region="Level 5" borderstyle="Dot" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="48">
+			<dock index="0" id="45" port="n" />
+			<dock index="1" id="47" port="s" />
+		</line>
+		<room id="49" name="Bedroom" subtitle="" x="-128" y="-32" w="96" h="64" region="Level 5" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects>(drawer on U DOOR gives key)|(key opens safe)</objects>
+		</room>
+		<line id="50">
+			<dock index="0" id="47" port="n" />
+			<dock index="1" id="49" port="s" />
+		</line>
+		<room id="51" name="Closet" subtitle="" x="-288" y="-32" w="96" h="64" region="Level 5" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects>Panel</objects>
+		</room>
+		<line id="52">
+			<dock index="0" id="49" port="w" />
+			<dock index="1" id="51" port="e" />
+		</line>
+		<room id="53" name="????" subtitle="" x="-288" y="96" w="96" h="64" region="Level 5" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="54" style="dashed">
+			<dock index="0" id="47" port="w" />
+			<dock index="1" id="53" port="e" />
+		</line>
+		<room id="55" name="????" subtitle="" x="32" y="96" w="96" h="64" region="Level 5" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="56" style="dashed">
+			<dock index="0" id="47" port="e" />
+			<dock index="1" id="55" port="w" />
+		</line>
+		<room id="57" name="Tight Corridor" subtitle="" x="-768" y="224" w="96" h="64" region="Level 6" borderstyle="Dash" description="Ahead,&#xD;&#xA;White=dead end&#xD;&#xA;Red=go back to&#xD;&#xA;&#x9;&#x9;start&#xD;&#xA;Black=go forward to stairs" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="58" startText="up" endText="down">
+			<dock index="0" id="47" port="sw" />
+			<dock index="1" id="57" port="ne" />
+		</line>
+		<room id="59" name="North Intersection" subtitle="" x="-768" y="96" w="96" h="64" region="Level 6" borderstyle="Solid" description="Black W&#xD;&#xA;White E&#xD;&#xA;Red S" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="60">
+			<dock index="0" id="57" port="n" />
+			<dock index="1" id="59" port="s" />
+		</line>
+		<room id="61" name="West Intersection" subtitle="" x="-928" y="352" w="96" h="64" region="Level 6" borderstyle="Solid" description="Black S&#xD;&#xA;White E&#xD;&#xA;Red N" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="63" name="South Intersection" subtitle="" x="-928" y="480" w="96" h="64" region="Level 6" borderstyle="Solid" description="White W&#xD;&#xA;Red N&#xD;&#xA;Black E" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="64">
+			<dock index="0" id="61" port="s" />
+			<dock index="1" id="63" port="n" />
+		</line>
+		<room id="65" name="SE Intersection" subtitle="" x="-608" y="480" w="96" h="64" region="Level 6" borderstyle="Solid" description="White N&#xD;&#xA;Red W&#xD;&#xA;Black E" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="66">
+			<dock index="0" id="63" port="e" />
+			<dock index="1" id="65" port="w" />
+		</line>
+		<room id="67" name="Ladder" subtitle="" x="-288" y="352" w="96" h="64" region="Level 6" borderstyle="Dot" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="68">
+			<dock index="0" id="65" port="e" />
+			<dock index="1" id="67" port="s" />
+		</line>
+		<room id="69" name="Dead End" subtitle="" x="-448" y="352" w="96" h="64" region="Level 6" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="62">
+			<dock index="0" id="61" port="n" />
+			<dock index="1" id="59" port="w" />
+		</line>
+		<room id="71" name="End of Corridor" subtitle="" x="-608" y="96" w="96" h="64" region="Level 6" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects>Gold Coin</objects>
+		</room>
+		<line id="72">
+			<dock index="0" id="59" port="e" />
+			<dock index="1" id="71" port="w" />
+		</line>
+		<room id="73" name="End of Corridor" subtitle="" x="-768" y="352" w="96" h="64" region="Level 6" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="74">
+			<dock index="0" id="61" port="e" />
+			<dock index="1" id="73" port="w" />
+		</line>
+		<room id="75" name="End of Corridor" subtitle="" x="-1088" y="352" w="96" h="64" region="Level 6" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects>Red Coin</objects>
+		</room>
+		<line id="76">
+			<dock index="0" id="63" port="w" />
+			<dock index="1" id="75" port="s" />
+		</line>
+		<line id="70">
+			<dock index="0" id="65" port="n" />
+			<dock index="1" id="69" port="w" />
+		</line>
+	</map>
+	<settings>
+		<colors>
+			<canvas>White</canvas>
+			<fill>White</fill>
+			<border>Black</border>
+			<line>Black</line>
+			<selectedLine>Gold</selectedLine>
+			<hoverLine>DarkOrange</hoverLine>
+			<largeText>Black</largeText>
+			<smallText>Black</smallText>
+			<lineText>Black</lineText>
+			<grid>#F5F5F5</grid>
+		</colors>
+		<regions>
+			<Level____1 Name="Level 1" TextColor="Black">White</Level____1>
+			<Level____2 Name="Level 2" TextColor="Black">#E0E0E0</Level____2>
+			<Level____3 Name="Level 3" TextColor="Black">#C0C0C0</Level____3>
+			<Level____4 Name="Level 4" TextColor="Black">#A0A0A0</Level____4>
+			<Level____5 Name="Level 5" TextColor="Black">#808080</Level____5>
+			<Level____6 Name="Level 6" TextColor="Black">#606060</Level____6>
+			<NoRegion Name="NoRegion" TextColor="Blue">White</NoRegion>
+		</regions>
+		<fonts>
+			<room size="12.75">Arial</room>
+			<object size="11.25">Arial</object>
+			<line size="9">Arial</line>
+		</fonts>
+		<grid>
+			<snapTo>yes</snapTo>
+			<visible>yes</visible>
+			<showOrigin>yes</showOrigin>
+			<size>32</size>
+		</grid>
+		<lines>
+			<width>2</width>
+			<handDrawn>no</handDrawn>
+			<arrowSize>12</arrowSize>
+			<textOffset>4</textOffset>
+		</lines>
+		<rooms>
+			<darknessStripeSize>24</darknessStripeSize>
+			<objectListOffset>4</objectListOffset>
+			<connectionStalkLength>32</connectionStalkLength>
+			<preferredDistanceBetweenRooms>64</preferredDistanceBetweenRooms>
+		</rooms>
+		<ui>
+			<handleSize>12</handleSize>
+			<snapToElementSize>16</snapToElementSize>
+		</ui>
+		<keypadNavigation>
+			<creationModifier>control</creationModifier>
+			<unexploredModifier>alt</unexploredModifier>
+		</keypadNavigation>
+	</settings>
+</trizbort>

@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<trizbort version="1.5.8.6">
+	<info />
+	<map>
+		<room id="1" name="Village Square" subtitle="" x="-192" y="-160" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="2" name="Western End" subtitle="" x="-352" y="-160" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects>Green Pennant</objects>
+		</room>
+		<line id="3">
+			<dock index="0" id="1" port="w" />
+			<dock index="1" id="2" port="e" />
+		</line>
+		<room id="4" name="Northern End" subtitle="" x="-192" y="-288" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects>Blue Pennant</objects>
+		</room>
+		<line id="5">
+			<dock index="0" id="1" port="n" />
+			<dock index="1" id="4" port="s" />
+		</line>
+		<room id="6" name="Path" subtitle="" x="-32" y="-416" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="7">
+			<dock index="0" id="4" port="ne" />
+			<dock index="1" id="6" port="sw" />
+		</line>
+		<room id="8" name="Forest" subtitle="" x="-192" y="-416" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="9">
+			<dock index="0" id="4" port="n" />
+			<dock index="1" id="8" port="s" />
+		</line>
+		<room id="10" name="Path" subtitle="" x="-32" y="-544" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="11">
+			<dock index="0" id="6" port="n" />
+			<dock index="1" id="10" port="s" />
+		</line>
+		<room id="12" name="Outside Cottage" subtitle="" x="-32" y="-672" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects>Mailbox|  Leaflet</objects>
+		</room>
+		<line id="13">
+			<dock index="0" id="10" port="n" />
+			<dock index="1" id="12" port="s" />
+		</line>
+		<room id="14" name="Eastern End" subtitle="" x="-32" y="-160" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="15">
+			<dock index="0" id="1" port="e" />
+			<dock index="1" id="14" port="w" />
+		</line>
+		<room id="16" name="Forest" subtitle="" x="128" y="-160" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="17">
+			<dock index="0" id="14" port="e" />
+			<dock index="1" id="16" port="w" />
+		</line>
+		<room id="18" name="????" subtitle="" x="-32" y="-288" w="96" h="64" region="NoRegion" borderstyle="Dot" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="19" style="dashed">
+			<dock index="0" id="14" port="n" />
+			<dock index="1" id="18" port="s" />
+		</line>
+		<room id="20" name="Southern End" subtitle="" x="-192" y="-32" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects>Troll|Red Pennant</objects>
+		</room>
+		<line id="21">
+			<dock index="0" id="1" port="s" />
+			<dock index="1" id="20" port="n" />
+		</line>
+		<room id="22" name="Small Cave" subtitle="" x="-32" y="96" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects>Machine</objects>
+		</room>
+		<line id="23">
+			<dock index="0" id="20" port="e" />
+			<dock index="1" id="22" port="w" />
+		</line>
+		<room id="24" name="Bridge" subtitle="" x="-192" y="96" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="25" style="dashed">
+			<dock index="0" id="20" port="s" />
+			<dock index="1" id="24" port="n" />
+		</line>
+		<room id="26" name="Outside Dragon's Lair" subtitle="" x="-192" y="224" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="27">
+			<dock index="0" id="24" port="s" />
+			<dock index="1" id="26" port="n" />
+		</line>
+		<room id="28" name="Dragon's Lair" subtitle="" x="-192" y="352" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="29">
+			<dock index="0" id="26" port="s" />
+			<dock index="1" id="28" port="n" />
+		</line>
+		<room id="30" name="Cottage" subtitle="" x="-32" y="-800" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="31" style="dashed" flow="oneWay">
+			<dock index="0" id="12" port="n" />
+			<dock index="1" id="30" port="s" />
+		</line>
+		<room id="32" name="Shoreline" subtitle="" x="-512" y="-160" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects>Fisherman|  Mackerel</objects>
+		</room>
+		<line id="33">
+			<dock index="0" id="2" port="w" />
+			<dock index="1" id="32" port="e" />
+		</line>
+		<room id="34" name="End of Pier" subtitle="" x="-672" y="-160" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="35">
+			<dock index="0" id="32" port="w" />
+			<dock index="1" id="34" port="e" />
+		</line>
+		<room id="36" name="Spell Shop" subtitle="" x="-352" y="-32" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="37" style="dashed">
+			<dock index="0" id="2" port="s" />
+			<dock index="1" id="36" port="n" />
+		</line>
+		<room id="38" name="Fishing Shop (?)" subtitle="" x="-352" y="-288" w="96" h="64" region="NoRegion" borderstyle="Dot" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="39" style="dashed">
+			<dock index="0" id="2" port="n" />
+			<dock index="1" id="38" port="s" />
+		</line>
+		<room id="40" name="Tavern" subtitle="" x="-32" y="-32" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects>Darts|Dartboard|Table</objects>
+		</room>
+		<room id="42" name="Bedroom" subtitle="" x="-512" y="-544" w="96" h="64" region="Interworld" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="43" name="Hallway" subtitle="" x="-672" y="-544" w="96" h="64" region="Interworld" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="44" flow="oneWay">
+			<dock index="0" id="42" port="w" />
+			<dock index="1" id="43" port="e" />
+		</line>
+		<room id="45" name="Bathroom" subtitle="" x="-512" y="-672" w="96" h="64" region="Interworld" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="46">
+			<dock index="0" id="42" port="n" />
+			<dock index="1" id="45" port="s" />
+		</line>
+		<room id="47" name="Game Room" subtitle="" x="-672" y="-672" w="96" h="64" region="Interworld" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="48">
+			<dock index="0" id="43" port="n" />
+			<dock index="1" id="47" port="s" />
+		</line>
+		<room id="49" name="Foyer" subtitle="" x="-672" y="-416" w="96" h="64" region="Interworld" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="50">
+			<dock index="0" id="43" port="s" />
+			<dock index="1" id="49" port="n" />
+		</line>
+		<room id="51" name="Porch" subtitle="" x="-672" y="-288" w="96" h="64" region="Interworld" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="52">
+			<dock index="0" id="49" port="s" />
+			<dock index="1" id="51" port="n" />
+		</line>
+		<room id="53" name="TV Room" subtitle="" x="-352" y="-416" w="96" h="64" region="Interworld" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="54">
+			<dock index="0" id="49" port="e" />
+			<dock index="1" id="53" port="w" />
+		</line>
+		<room id="55" name="Kitchen" subtitle="" x="-352" y="-544" w="96" h="64" region="Interworld" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="56">
+			<dock index="0" id="53" port="n" />
+			<dock index="1" id="55" port="s" />
+		</line>
+		<room id="57" name="Backyard" subtitle="" x="-352" y="-672" w="96" h="64" region="Interworld" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="58">
+			<dock index="0" id="55" port="n" />
+			<dock index="1" id="57" port="s" />
+		</line>
+		<room id="59" name="Beach" subtitle="" x="-192" y="-672" w="96" h="64" region="Interworld" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="60">
+			<dock index="0" id="57" port="e" />
+			<dock index="1" id="59" port="w" />
+		</line>
+		<room id="61" name="Library" subtitle="" x="-832" y="-672" w="96" h="64" region="Interworld" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="62">
+			<dock index="0" id="47" port="w" />
+			<dock index="1" id="61" port="e" />
+		</line>
+		<room id="65" name="Dining Room" subtitle="" x="-832" y="-544" w="96" h="64" region="Interworld" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="66">
+			<dock index="0" id="43" port="w" />
+			<dock index="1" id="65" port="e" />
+		</line>
+		<line id="41" flow="oneWay">
+			<dock index="0" id="40" port="nw" />
+			<dock index="1" id="1" port="se" />
+		</line>
+	</map>
+	<settings>
+		<colors>
+			<canvas>White</canvas>
+			<fill>White</fill>
+			<border>MidnightBlue</border>
+			<line>MidnightBlue</line>
+			<selectedLine>Gold</selectedLine>
+			<hoverLine>DarkOrange</hoverLine>
+			<largeText>MidnightBlue</largeText>
+			<smallText>MidnightBlue</smallText>
+			<lineText>MidnightBlue</lineText>
+			<grid>#F5F5F5</grid>
+		</colors>
+		<regions>
+			<Interworld Name="Interworld" TextColor="MidnightBlue">Silver</Interworld>
+			<NoRegion Name="NoRegion" TextColor="Blue">White</NoRegion>
+		</regions>
+		<fonts>
+			<room size="12">Arial</room>
+			<object size="9.75">Arial</object>
+			<line size="8.25">Arial</line>
+		</fonts>
+		<grid>
+			<snapTo>yes</snapTo>
+			<visible>yes</visible>
+			<showOrigin>yes</showOrigin>
+			<size>32</size>
+		</grid>
+		<lines>
+			<width>2</width>
+			<handDrawn>no</handDrawn>
+			<arrowSize>12</arrowSize>
+			<textOffset>4</textOffset>
+		</lines>
+		<rooms>
+			<darknessStripeSize>24</darknessStripeSize>
+			<objectListOffset>4</objectListOffset>
+			<connectionStalkLength>32</connectionStalkLength>
+			<preferredDistanceBetweenRooms>64</preferredDistanceBetweenRooms>
+		</rooms>
+		<ui>
+			<handleSize>12</handleSize>
+			<snapToElementSize>16</snapToElementSize>
+		</ui>
+		<keypadNavigation>
+			<creationModifier>control</creationModifier>
+			<unexploredModifier>alt</unexploredModifier>
+		</keypadNavigation>
+	</settings>
+</trizbort>

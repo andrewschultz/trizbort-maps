@@ -2,7 +2,9 @@
 <trizbort version="1.5.8.7">
 	<info />
 	<map>
-		<room id="1" name="Fork" subtitle="" x="192" y="-32" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="1" name="Fork" subtitle="" x="192" y="-32" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects>Return from plain to here</objects>
+		</room>
 		<room id="2" name="Train Crossing" subtitle="" x="192" y="-128" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="#FF8000" secondFillLocation="BottomRight" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="3">
 			<dock index="0" id="1" port="n" />
@@ -36,7 +38,7 @@
 			<dock index="1" id="10" port="w" />
 		</line>
 		<room id="14" name="Lake (on raft)" subtitle="" x="-576" y="-32" w="96" h="64" region="NoRegion" borderstyle="Dash" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
-			<objects>Black gem (fall into lake)</objects>
+			<objects>Blue gem (fall into lake)</objects>
 		</room>
 		<line id="15" style="dashed">
 			<dock index="0" id="12" port="w" />
@@ -45,7 +47,7 @@
 		<room id="16" name="Temple Entrance" subtitle="" x="-320" y="-224" w="96" h="64" region="Water" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
 			<objects>(Back to dock once you get gem)</objects>
 		</room>
-		<room id="17" name="Statue Room" subtitle="" x="-448" y="-224" w="96" h="64" region="Water" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="17" name="Statue Room (becomes plain)" subtitle="" x="-448" y="-224" w="96" h="64" region="Water" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<room id="18" name="Arena Room" subtitle="" x="-576" y="-224" w="96" h="64" region="Water" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
 			<objects>Swordsman</objects>
 		</room>
@@ -81,10 +83,10 @@
 			<dock index="0" id="25" port="sw" />
 			<dock index="1" id="4" port="ne" />
 		</line>
-		<room id="29" name="Ocean Room" subtitle="" x="-64" y="-320" w="96" h="64" region="Lever Building" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
-			<objects>pedestal1|(Black gem)</objects>
+		<room id="29" name="Ocean Room" subtitle="" x="-64" y="-320" w="96" h="64" region="Lever Building" borderstyle="Solid" description="" roomFill="" secondFill="#0000FF" secondFillLocation="BottomRight" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects>pedestal1|(Blue gem)</objects>
 		</room>
-		<room id="30" name="Rain-Forest Room" subtitle="" x="-192" y="-320" w="96" h="64" region="Lever Building" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+		<room id="30" name="Rain-Forest Room" subtitle="" x="-192" y="-320" w="96" h="64" region="Lever Building" borderstyle="Solid" description="" roomFill="" secondFill="#008000" secondFillLocation="BottomRight" roomBorder="" roomLargeText="" roomSmallText="">
 			<objects>pedestal3|(Green gem)</objects>
 		</room>
 		<line id="31">
@@ -95,10 +97,10 @@
 			<dock index="0" id="30" port="se" />
 			<dock index="1" id="26" port="nw" />
 		</line>
-		<room id="33" name="Space Room" subtitle="" x="64" y="-320" w="96" h="64" region="Lever Building" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+		<room id="33" name="Space Room" subtitle="" x="64" y="-320" w="96" h="64" region="Lever Building" borderstyle="Solid" description="" roomFill="" secondFill="#000000" secondFillLocation="BottomRight" roomBorder="" roomLargeText="" roomSmallText="">
 			<objects>pedestal2|(Midnight gem)</objects>
 		</room>
-		<room id="34" name="Metallic Room" subtitle="" x="64" y="-224" w="96" h="64" region="Lever Building" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+		<room id="34" name="Metallic Room" subtitle="" x="64" y="-224" w="96" h="64" region="Lever Building" borderstyle="Solid" description="" roomFill="" secondFill="#808080" secondFillLocation="BottomRight" roomBorder="" roomLargeText="" roomSmallText="">
 			<objects>pedestal4|(Silver gem)</objects>
 		</room>
 		<line id="35">
@@ -287,7 +289,7 @@
 		</colors>
 		<regions>
 			<Forest Name="Forest" TextColor="Black">Green</Forest>
-			<Lever____Building Name="Lever Building" TextColor="Black">Silver</Lever____Building>
+			<Lever____Building Name="Lever Building" TextColor="White">Silver</Lever____Building>
 			<Main____Area Name="Main Area" TextColor="Black">White</Main____Area>
 			<NoRegion Name="NoRegion" TextColor="Black">White</NoRegion>
 			<Water Name="Water" TextColor="Black">Aqua</Water>
