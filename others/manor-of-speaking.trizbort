@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<trizbort version="1.5.8.7">
+	<info>
+		<title>In a Manor of Speaking Map</title>
+		<author>Andrew Schultz</author>
+		<description>This is a map for In a Manor of Speaking, an IFComp 2012 game.</description>
+	</info>
+	<map>
+		<room id="1" name="Great Planes" subtitle="" x="0" y="-288" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="2" name="Crossroads" subtitle="" x="0" y="-160" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="#00FF00" secondFillLocation="BottomRight" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects>Bar</objects>
+		</room>
+		<line id="3">
+			<dock index="0" id="1" port="s" />
+			<dock index="1" id="2" port="n" />
+		</line>
+		<room id="4" name="Cave Entrance" subtitle="" x="-160" y="-160" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="5">
+			<dock index="0" id="2" port="w" />
+			<dock index="1" id="4" port="e" />
+		</line>
+		<room id="6" name="Intersection" subtitle="" x="0" y="-32" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="7">
+			<dock index="0" id="2" port="s" />
+			<dock index="1" id="6" port="n" />
+		</line>
+		<room id="8" name="Desert" subtitle="" x="160" y="-160" w="96" h="64" region="NoRegion" borderstyle="None" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="10" name="Lair of Salazar" subtitle="" x="-320" y="-288" w="96" h="64" region="NoRegion" borderstyle="Solid" description="give hug to Salazar" roomFill="" secondFill="#FF8000" secondFillLocation="BottomRight" roomBorder="" roomLargeText="" roomSmallText="#FF8000">
+			<objects>Salazar</objects>
+		</room>
+		<line id="11">
+			<dock index="0" id="4" port="nw" />
+			<dock index="1" id="10" port="se" />
+		</line>
+		<room id="12" name="Crime Scene" subtitle="get bear hug" x="-320" y="-32" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="#00FF00" secondFillLocation="BottomRight" roomBorder="" roomLargeText="#FF8000" roomSmallText="">
+			<objects>Hooyoo|Yoohoo|Pudding (SEARCH)</objects>
+		</room>
+		<line id="13">
+			<dock index="0" id="4" port="sw" />
+			<dock index="1" id="12" port="ne" />
+		</line>
+		<room id="14" name="The Big Apple" subtitle="" x="-160" y="-32" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="#C0C0C0" secondFillLocation="BottomRight" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects>Tourist|Picture</objects>
+		</room>
+		<line id="15">
+			<dock index="0" id="12" port="e" />
+			<dock index="1" id="14" port="w" />
+		</line>
+		<line id="16">
+			<dock index="0" id="14" port="e" />
+			<dock index="1" id="6" port="w" />
+		</line>
+		<room id="17" name="Car Park" subtitle="" x="160" y="-32" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="#00FF00" secondFillLocation="BottomRight" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects>Pedestal</objects>
+		</room>
+		<line id="18">
+			<dock index="0" id="6" port="e" />
+			<dock index="1" id="17" port="w" />
+		</line>
+		<room id="9" name="Road to Somewhere" subtitle="" x="0" y="96" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="#C0C0C0" secondFillLocation="BottomRight" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects>Eye Patch</objects>
+		</room>
+		<line id="19" style="dashed">
+			<dock index="0" id="6" port="s" />
+			<dock index="1" id="9" port="n" />
+		</line>
+		<room id="20" name="Metal Concert" subtitle="get piece of mind" x="0" y="224" w="96" h="64" region="NoRegion" borderstyle="Solid" description="Rock out for piece of mind" roomFill="" secondFill="#0000FF" secondFillLocation="BottomRight" roomBorder="" roomLargeText="#FF8000" roomSmallText="">
+			<objects>Boulder|Metalhead|+40 here</objects>
+		</room>
+		<line id="21" style="dashed">
+			<dock index="0" id="9" port="s" />
+			<dock index="1" id="20" port="n" />
+		</line>
+		<room id="22" name="Calembour Bar &amp; Chill" subtitle="" x="320" y="-32" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="#00FF00" secondFillLocation="BottomRight" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects>S GN</objects>
+		</room>
+		<line id="23" style="dashed">
+			<dock index="0" id="17" port="e" />
+			<dock index="1" id="22" port="w" />
+		</line>
+		<room id="24" name="Poppycock Street" subtitle="" x="320" y="96" w="96" h="64" region="City" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="25" style="dashed">
+			<dock index="0" id="22" port="s" />
+			<dock index="1" id="24" port="n" />
+		</line>
+		<room id="26" name="Titmouse Square" subtitle="" x="480" y="96" w="96" h="64" region="City" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="27">
+			<dock index="0" id="24" port="e" />
+			<dock index="1" id="26" port="w" />
+		</line>
+		<room id="28" name="Assassin Alley" subtitle="" x="640" y="224" w="96" h="64" region="City" borderstyle="Solid" description="" roomFill="" secondFill="#00FFFF" secondFillLocation="BottomRight" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects>Brick Wall</objects>
+		</room>
+		<line id="29">
+			<dock index="0" id="26" port="se" />
+			<dock index="1" id="28" port="nw" />
+		</line>
+		<room id="30" name="Saturday Drive" subtitle="" x="480" y="224" w="96" h="64" region="City" borderstyle="Solid" description="" roomFill="" secondFill="#00FFFF" secondFillLocation="BottomRight" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="31">
+			<dock index="0" id="26" port="s" />
+			<dock index="1" id="30" port="n" />
+		</line>
+		<room id="32" name="Booboo Boulevard" subtitle="" x="320" y="224" w="96" h="64" region="City" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects>Mounds|Poster</objects>
+		</room>
+		<line id="33">
+			<dock index="0" id="26" port="sw" />
+			<dock index="1" id="32" port="ne" />
+		</line>
+		<room id="34" name="Stumblebum Lane" subtitle="" x="480" y="-32" w="96" h="64" region="City" borderstyle="Solid" description="Piece of Mind to Kangarude" roomFill="" secondFill="#FF8000" secondFillLocation="BottomRight" roomBorder="" roomLargeText="" roomSmallText="#FF8000">
+			<objects>Kangarude</objects>
+		</room>
+		<line id="35">
+			<dock index="0" id="26" port="n" />
+			<dock index="1" id="34" port="s" />
+		</line>
+		<room id="36" name="West Cumbersome Crescent" subtitle="" x="320" y="-160" w="96" h="64" region="City" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="37">
+			<dock index="0" id="34" port="nw" />
+			<dock index="1" id="36" port="se" />
+		</line>
+		<room id="38" name="East Cumbersome Crescent" subtitle="" x="640" y="-160" w="96" h="64" region="City" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="39">
+			<dock index="0" id="34" port="ne" />
+			<dock index="1" id="38" port="sw" />
+		</line>
+		<room id="40" name="Cumbersome Crescent" subtitle="" x="480" y="-288" w="96" h="64" region="City" borderstyle="Solid" description="give words to beggar" roomFill="" secondFill="#00FF00" secondFillLocation="BottomRight" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects>Beggar</objects>
+		</room>
+		<line id="41">
+			<dock index="0" id="38" port="nw" />
+			<dock index="1" id="40" port="se" />
+		</line>
+		<line id="42">
+			<dock index="0" id="40" port="sw" />
+			<dock index="1" id="36" port="ne" />
+		</line>
+		<room id="43" name="(Un)Dead End" subtitle="" x="480" y="-160" w="96" h="64" region="NoRegion" borderstyle="None" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="44">
+			<dock index="0" id="38" port="w" />
+			<dock index="1" id="43" port="e" />
+		</line>
+		<line id="45">
+			<dock index="0" id="32" port="e" />
+			<dock index="1" id="30" port="w" />
+		</line>
+		<room id="46" name="Got Wood?" subtitle="" x="640" y="512" w="96" h="64" region="City" borderstyle="Solid" description="give picture to dealer" roomFill="" secondFill="#00FF00" secondFillLocation="BottomRight" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects>Dealer</objects>
+		</room>
+		<line id="47">
+			<dock index="0" id="30" port="se" />
+			<dock index="1" id="46" port="nw" />
+		</line>
+		<room id="48" name="Calembour Dessert" subtitle="" x="640" y="352" w="96" h="64" region="City" borderstyle="Solid" description="" roomFill="" secondFill="#00FFFF" secondFillLocation="BottomRight" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="49" style="dashed">
+			<dock index="0" id="28" port="s" />
+			<dock index="1" id="48" port="n" />
+		</line>
+		<room id="50" name="Handsome Manor Entrance" subtitle="" x="160" y="224" w="96" h="64" region="Manor" borderstyle="Solid" description="" roomFill="" secondFill="#00FFFF" secondFillLocation="BottomRight" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="51" name="Western Path" subtitle="" x="-160" y="512" w="96" h="64" region="Manor" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="52">
+			<dock index="0" id="50" port="sw" />
+			<dock index="1" id="51" port="ne" />
+		</line>
+		<room id="53" name="Manor Rear" subtitle="" x="160" y="800" w="96" h="64" region="Manor" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="54">
+			<dock index="0" id="51" port="se" />
+			<dock index="1" id="53" port="nw" />
+		</line>
+		<room id="55" name="Eastern Path" subtitle="" x="480" y="512" w="96" h="64" region="Manor" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="56">
+			<dock index="0" id="53" port="ne" />
+			<dock index="1" id="55" port="sw" />
+		</line>
+		<line id="57">
+			<dock index="0" id="55" port="nw" />
+			<dock index="1" id="50" port="se" />
+		</line>
+		<room id="58" name="Garden" subtitle="" x="160" y="928" w="96" h="64" region="Manor" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="59">
+			<dock index="0" id="53" port="s" />
+			<dock index="1" id="58" port="n" />
+		</line>
+		<room id="60" name="Shed" subtitle="" x="0" y="928" w="96" h="64" region="Manor" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="61">
+			<dock index="0" id="58" port="w" />
+			<dock index="1" id="60" port="e" />
+		</line>
+		<room id="62" name="A Handsome Foyer" subtitle="" x="160" y="512" w="96" h="64" region="Manor" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="63" style="dashed">
+			<dock index="0" id="50" port="s" />
+			<dock index="1" id="62" port="n" />
+		</line>
+		<room id="64" name="A Handsome Lounge Room" subtitle="" x="0" y="512" w="96" h="64" region="Manor" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="65">
+			<dock index="0" id="62" port="w" />
+			<dock index="1" id="64" port="e" />
+		</line>
+		<room id="66" name="A Handsome Kitchen" subtitle="" x="320" y="512" w="96" h="64" region="NoRegion" borderstyle="None" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="67" name="A Handsome Guest Room" subtitle="" x="320" y="640" w="96" h="64" region="Manor" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="68">
+			<dock index="0" id="62" port="se" />
+			<dock index="1" id="67" port="nw" />
+		</line>
+		<room id="69" name="A Handsome Hallway" subtitle="" x="-160" y="224" w="96" h="64" region="Manor" borderstyle="Solid" description="" roomFill="" secondFill="#00FFFF" secondFillLocation="BottomRight" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="71" name="A Modest Throne Room" subtitle="" x="-160" y="352" w="96" h="64" region="Manor" borderstyle="Solid" description="" roomFill="" secondFill="#00FFFF" secondFillLocation="BottomRight" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="72" style="dashed">
+			<dock index="0" id="69" port="s" />
+			<dock index="1" id="71" port="n" />
+		</line>
+		<line id="70" startText="up" endText="down">
+			<dock index="0" id="62" port="nw" />
+			<dock index="1" id="69" port="se" />
+		</line>
+	</map>
+	<settings>
+		<colors>
+			<canvas>White</canvas>
+			<fill>White</fill>
+			<border>Black</border>
+			<line>Black</line>
+			<selectedLine>SteelBlue</selectedLine>
+			<hoverLine>DarkOrange</hoverLine>
+			<largeText>Black</largeText>
+			<smallText>Black</smallText>
+			<lineText>Black</lineText>
+			<grid>#F5F5F5</grid>
+		</colors>
+		<regions>
+			<City Name="City" TextColor="Black">Red</City>
+			<Manor Name="Manor" TextColor="Black">Yellow</Manor>
+			<NoRegion Name="NoRegion" TextColor="Black">White</NoRegion>
+		</regions>
+		<fonts>
+			<room size="11.25">Comic Sans MS</room>
+			<object size="9.75">Comic Sans MS</object>
+			<line size="9">Comic Sans MS</line>
+		</fonts>
+		<grid>
+			<snapTo>yes</snapTo>
+			<visible>yes</visible>
+			<showOrigin>yes</showOrigin>
+			<size>32</size>
+		</grid>
+		<lines>
+			<width>3</width>
+			<handDrawn>no</handDrawn>
+			<arrowSize>8</arrowSize>
+			<textOffset>4</textOffset>
+		</lines>
+		<rooms>
+			<darknessStripeSize>24</darknessStripeSize>
+			<objectListOffset>4</objectListOffset>
+			<connectionStalkLength>32</connectionStalkLength>
+			<preferredDistanceBetweenRooms>64</preferredDistanceBetweenRooms>
+		</rooms>
+		<ui>
+			<handleSize>12</handleSize>
+			<snapToElementSize>16</snapToElementSize>
+		</ui>
+		<keypadNavigation>
+			<creationModifier>control</creationModifier>
+			<unexploredModifier>alt</unexploredModifier>
+		</keypadNavigation>
+	</settings>
+</trizbort>

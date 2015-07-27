@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<trizbort version="1.5.8.7">
+	<info />
+	<map>
+		<room id="1" name="Entrance to the Library" subtitle="" x="64" y="448" w="96" h="64" region="Library" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="2" name="Library Antechamber" subtitle="" x="64" y="320" w="96" h="64" region="Library" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="3" style="dashed" midText="rezrov">
+			<dock index="0" id="1" port="n" />
+			<dock index="1" id="2" port="s" />
+		</line>
+		<room id="4" name="Main Stacks" subtitle="" x="-96" y="320" w="96" h="64" region="Library" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="5">
+			<dock index="0" id="2" port="w" />
+			<dock index="1" id="4" port="e" />
+		</line>
+		<room id="6" name="Returns Room" subtitle="" x="-96" y="448" w="96" h="64" region="Library" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="7">
+			<dock index="0" id="4" port="s" />
+			<dock index="1" id="6" port="n" />
+		</line>
+		<line id="8">
+			<dock index="0" id="6" port="ne" />
+			<dock index="1" id="2" port="sw" />
+		</line>
+		<room id="9" name="Scrying Room" subtitle="" x="-96" y="192" w="96" h="64" region="Library" borderstyle="Solid" description="" roomFill="" secondFill="#C0C0C0" secondFillLocation="Right" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="10">
+			<dock index="0" id="2" port="nw" />
+			<dock index="1" id="9" port="se" />
+		</line>
+		<line id="11">
+			<dock index="0" id="9" port="s" />
+			<dock index="1" id="4" port="n" />
+		</line>
+		<room id="12" name="Disused Closet" subtitle="" x="224" y="192" w="96" h="64" region="Library" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="13">
+			<dock index="0" id="2" port="ne" />
+			<dock index="1" id="12" port="sw" />
+		</line>
+		<room id="14" name="Basic Spell Collection" subtitle="" x="224" y="320" w="96" h="64" region="Library" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="15">
+			<dock index="0" id="2" port="e" />
+			<dock index="1" id="14" port="w" />
+		</line>
+		<room id="16" name="Spell Research Room" subtitle="" x="64" y="192" w="96" h="64" region="Library" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="17">
+			<dock index="0" id="2" port="n" />
+			<dock index="1" id="16" port="s" />
+		</line>
+		<room id="19" name="Bottom of Staircase" subtitle="" x="224" y="64" w="96" h="64" region="Library" borderstyle="Solid" description="" roomFill="" secondFill="#FFFFFF" secondFillLocation="BottomRight" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="21" name="Clean Room" subtitle="" x="384" y="192" w="96" h="64" region="Library" borderstyle="Solid" description="" roomFill="" secondFill="#FFFFFF" secondFillLocation="BottomRight" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="22">
+			<dock index="0" id="19" port="se" />
+			<dock index="1" id="21" port="nw" />
+		</line>
+		<room id="23" name="Secret Tunnel" subtitle="" x="384" y="320" w="96" h="64" region="Library" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="24" style="dashed" startText="up" endText="down">
+			<dock index="0" id="12" port="se" />
+			<dock index="1" id="23" port="nw" />
+		</line>
+		<line id="18" style="dashed" startText="up" endText="down">
+			<dock index="0" id="16" port="ne" />
+			<dock index="1" id="19" port="sw" />
+		</line>
+		<room id="20" name="Splendid Cave" subtitle="" x="224" y="704" w="96" h="64" region="Hall" borderstyle="Solid" description="" roomFill="" secondFill="#C0C0C0" secondFillLocation="Left" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="25" name="Above the Pit" subtitle="" x="64" y="704" w="96" h="64" region="Hall" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="26">
+			<dock index="0" id="20" port="w" />
+			<dock index="1" id="25" port="e" />
+		</line>
+		<room id="27" name="Misty Cavern" subtitle="" x="-96" y="576" w="96" h="64" region="Hall" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="28" startText="down" endText="up">
+			<dock index="0" id="25" port="nw" />
+			<dock index="1" id="27" port="se" />
+		</line>
+		<room id="29" name="Hall of the Mountain King" subtitle="" x="-256" y="448" w="96" h="64" region="Hall" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="31" name="Low Passage" subtitle="" x="-256" y="320" w="96" h="64" region="Hall" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="32">
+			<dock index="0" id="29" port="n" />
+			<dock index="1" id="31" port="s" />
+		</line>
+		<room id="33" name="Y2" subtitle="" x="-256" y="192" w="96" h="64" region="Hall" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="34">
+			<dock index="0" id="31" port="n" />
+			<dock index="1" id="33" port="s" />
+		</line>
+		<room id="35" name="Overlook" subtitle="" x="-416" y="192" w="96" h="64" region="Hall" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="36">
+			<dock index="0" id="33" port="w" />
+			<dock index="1" id="35" port="e" />
+		</line>
+		<room id="37" name="East Edge of the Fissure" subtitle="" x="-256" y="576" w="96" h="64" region="Hall" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="38">
+			<dock index="0" id="27" port="w" />
+			<dock index="1" id="37" port="e" />
+		</line>
+		<room id="39" name="West Edge of the Fissure" subtitle="" x="-416" y="576" w="96" h="64" region="Hall" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="40" style="dashed" midText="izyuk">
+			<dock index="0" id="37" port="w" />
+			<dock index="1" id="39" port="e" />
+		</line>
+		<room id="41" name="Damp Cavern" subtitle="" x="-576" y="576" w="96" h="64" region="Hall" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects>Spike with note</objects>
+		</room>
+		<line id="42">
+			<dock index="0" id="39" port="w" />
+			<dock index="1" id="41" port="e" />
+		</line>
+		<room id="43" name="Dead End" subtitle="" x="-96" y="704" w="96" h="64" region="Hall" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects>Staff</objects>
+		</room>
+		<line id="44">
+			<dock index="0" id="27" port="s" />
+			<dock index="1" id="43" port="n" />
+		</line>
+		<line id="30" startText="up" endText="down">
+			<dock index="0" id="29" port="se" />
+			<dock index="1" id="27" port="nw" />
+		</line>
+		<room id="45" name="Storage Area" subtitle="" x="224" y="448" w="96" h="64" region="Library" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="46" style="dashed">
+			<dock index="0" id="45" port="nw" />
+			<dock index="1" id="2" port="se" />
+		</line>
+		<room id="47" name="Chasm" subtitle="" x="-416" y="320" w="96" h="64" region="Hall" borderstyle="Solid" description="" roomFill="" secondFill="#C0C0C0" secondFillLocation="Left" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="48" style="dashed" startText="down" endText="up">
+			<dock index="0" id="35" port="s" />
+			<dock index="1" id="47" port="n" />
+		</line>
+		<room id="49" name="South End of Ruined Hall" subtitle="" x="-576" y="320" w="96" h="64" region="Caves" borderstyle="Solid" description="" roomFill="" secondFill="#C0C0C0" secondFillLocation="Right" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="51" name="North End of Ruined Hall" subtitle="" x="-576" y="192" w="96" h="64" region="Caves" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="52">
+			<dock index="0" id="49" port="n" />
+			<dock index="1" id="51" port="s" />
+		</line>
+		<line id="53" style="dashed" startText="blorple" endText="blorple">
+			<dock index="0" id="9" port="sse" />
+			<dock index="1" id="20" port="nw" />
+		</line>
+		<line id="50" style="dashed" midText="blorple">
+			<dock index="0" id="49" port="e" />
+			<dock index="1" id="47" port="w" />
+		</line>
+	</map>
+	<settings>
+		<colors>
+			<canvas>White</canvas>
+			<fill>White</fill>
+			<border>Black</border>
+			<line>Black</line>
+			<selectedLine>Gold</selectedLine>
+			<hoverLine>DarkOrange</hoverLine>
+			<largeText>Black</largeText>
+			<smallText>Black</smallText>
+			<lineText>Black</lineText>
+			<grid>#F5F5F5</grid>
+		</colors>
+		<regions>
+			<Caves Name="Caves" TextColor="Black">#0080FF</Caves>
+			<Hall Name="Hall" TextColor="Black">Yellow</Hall>
+			<Library Name="Library" TextColor="Black">Red</Library>
+			<NoRegion Name="NoRegion" TextColor="Black">White</NoRegion>
+		</regions>
+		<fonts>
+			<room size="12">Comic Sans MS</room>
+			<object size="11">Comic Sans MS</object>
+			<line size="9">Comic Sans MS</line>
+		</fonts>
+		<grid>
+			<snapTo>yes</snapTo>
+			<visible>yes</visible>
+			<showOrigin>yes</showOrigin>
+			<size>32</size>
+		</grid>
+		<lines>
+			<width>2</width>
+			<handDrawn>no</handDrawn>
+			<arrowSize>12</arrowSize>
+			<textOffset>4</textOffset>
+		</lines>
+		<rooms>
+			<darknessStripeSize>24</darknessStripeSize>
+			<objectListOffset>4</objectListOffset>
+			<connectionStalkLength>32</connectionStalkLength>
+			<preferredDistanceBetweenRooms>64</preferredDistanceBetweenRooms>
+		</rooms>
+		<ui>
+			<handleSize>12</handleSize>
+			<snapToElementSize>16</snapToElementSize>
+		</ui>
+		<keypadNavigation>
+			<creationModifier>control</creationModifier>
+			<unexploredModifier>alt</unexploredModifier>
+		</keypadNavigation>
+	</settings>
+</trizbort>
