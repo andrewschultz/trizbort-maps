@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<trizbort version="1.5.8.8">
+<trizbort version="1.5.8.7">
 	<info />
 	<map>
 		<room id="1" name="Outside Guild Hall" subtitle="" x="128" y="-32" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
@@ -490,31 +490,69 @@
 			<dock index="0" id="101" port="ne" />
 			<dock index="1" id="81" port="sw" />
 		</line>
-		<room id="100" name="Desolation" subtitle="" x="160" y="-736" w="96" h="64" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
-		<room id="102" name="Cave" subtitle="" x="160" y="-640" w="96" h="64" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="100" name="Desolation" subtitle="" x="288" y="-672" w="96" h="32" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects>(Minx should dig up truffle)</objects>
+		</room>
+		<room id="102" name="Highway" subtitle="" x="288" y="-608" w="96" h="32" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="171">
 			<dock index="0" id="100" port="s" />
 			<dock index="1" id="102" port="n" />
 		</line>
-		<room id="172" name="Cave" subtitle="" x="160" y="-544" w="96" h="64" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="172" name="Glacier" subtitle="" x="288" y="-544" w="96" h="32" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="173">
 			<dock index="0" id="102" port="s" />
 			<dock index="1" id="172" port="n" />
 		</line>
-		<room id="174" name="Cave" subtitle="" x="160" y="-448" w="96" h="64" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="174" name="Frost" subtitle="" x="288" y="-480" w="96" h="32" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="175">
 			<dock index="0" id="172" port="s" />
 			<dock index="1" id="174" port="n" />
 		</line>
-		<room id="176" name="Cave" subtitle="" x="160" y="-352" w="96" h="64" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="176" name="Plaza" subtitle="" x="288" y="-416" w="96" h="32" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="177">
 			<dock index="0" id="174" port="s" />
 			<dock index="1" id="176" port="n" />
 		</line>
-		<room id="178" name="Battlefield" subtitle="" x="160" y="-256" w="96" h="64" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="180" name="Void" subtitle="" x="288" y="-736" w="96" h="32" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="181">
+			<dock index="0" id="100" port="n" />
+			<dock index="1" id="180" port="s" />
+		</line>
+		<room id="178" name="Rubble" subtitle="" x="288" y="-352" w="96" h="32" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="179">
 			<dock index="0" id="176" port="s" />
 			<dock index="1" id="178" port="n" />
+		</line>
+		<room id="182" name="Battleground" subtitle="" x="288" y="-288" w="96" h="32" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects>(Throw truffle in trench)</objects>
+		</room>
+		<line id="183">
+			<dock index="0" id="178" port="s" />
+			<dock index="1" id="182" port="n" />
+		</line>
+		<room id="184" name="New Plaza" subtitle="" x="288" y="-224" w="96" h="32" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="185">
+			<dock index="0" id="182" port="s" />
+			<dock index="1" id="184" port="n" />
+		</line>
+		<room id="186" name="ForestClearing" subtitle="" x="288" y="-160" w="96" h="32" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="187">
+			<dock index="0" id="184" port="s" />
+			<dock index="1" id="186" port="n" />
+		</line>
+		<room id="188" name="Savannah" subtitle="" x="288" y="-96" w="96" h="32" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="189">
+			<dock index="0" id="186" port="s" />
+			<dock index="1" id="188" port="n" />
+		</line>
+		<room id="190" name="Void" subtitle="" x="288" y="-32" w="96" h="32" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="191">
+			<dock index="0" id="188" port="s" />
+			<dock index="1" id="190" port="n" />
+		</line>
+		<line id="192" midText="turn glass">
+			<dock index="0" id="176" port="w" />
+			<dock index="1" id="123" port="e" />
 		</line>
 	</map>
 	<settings>
