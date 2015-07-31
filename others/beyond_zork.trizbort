@@ -1,147 +1,147 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<trizbort version="1.5.8.7">
+<trizbort version="1.5.8.8">
 	<info />
 	<map>
-		<room id="1" name="Outside Guild Hall" subtitle="" x="128" y="-32" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
-		<room id="2" name="Accardi-by- the-Sea" subtitle="" x="-32" y="-32" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="1" name="Outside Guild Hall" subtitle="" x="96" y="0" w="128" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="2" name="Accardi-by- the-Sea" subtitle="" x="-64" y="0" w="128" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="3">
 			<dock index="0" id="1" port="w" />
 			<dock index="1" id="2" port="e" />
 		</line>
-		<room id="4" name="Weapons Shop" subtitle="" x="-192" y="-32" w="96" h="64" region="Shops" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="4" name="Weapons Shop" subtitle="" x="-224" y="0" w="128" h="32" region="Shops" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="5">
 			<dock index="0" id="2" port="w" />
 			<dock index="1" id="4" port="e" />
 		</line>
-		<room id="6" name="Lobby" subtitle="" x="128" y="-160" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="#FF0000" secondFillLocation="BottomRight" roomBorder="" roomLargeText="" roomSmallText="">
+		<room id="6" name="Lobby" subtitle="" x="96" y="-64" w="128" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="#FF0000" secondFillLocation="BottomRight" roomBorder="" roomLargeText="" roomSmallText="">
 			<objects>STAVE</objects>
 		</room>
 		<line id="7" style="dashed">
 			<dock index="0" id="1" port="n" />
 			<dock index="1" id="6" port="s" />
 		</line>
-		<room id="8" name="Tidal Flats" subtitle="" x="-192" y="96" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="8" name="Tidal Flats" subtitle="" x="-224" y="96" w="96" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="9">
 			<dock index="0" id="2" port="sw" />
 			<dock index="1" id="8" port="ne" />
 		</line>
-		<room id="10" name="Babbling Brook" subtitle="" x="-352" y="-32" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="10" name="Babbling Brook" subtitle="" x="-416" y="0" w="128" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="11">
 			<dock index="0" id="8" port="nw" />
 			<dock index="1" id="10" port="se" />
 		</line>
-		<room id="12" name="Ledge" subtitle="" x="-32" y="224" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="12" name="Ledge" subtitle="" x="-64" y="192" w="96" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="13">
 			<dock index="0" id="8" port="se" />
 			<dock index="1" id="12" port="nw" />
 		</line>
-		<room id="14" name="Lighthouse" subtitle="" x="-192" y="224" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="14" name="Lighthouse" subtitle="" x="-224" y="192" w="96" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="15" style="dashed">
 			<dock index="0" id="12" port="w" />
 			<dock index="1" id="14" port="e" />
 		</line>
-		<room id="16" name="Wharf" subtitle="" x="-32" y="352" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+		<room id="16" name="Wharf" subtitle="" x="-64" y="256" w="96" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
 			<objects>Sailor</objects>
 		</room>
-		<room id="18" name="Outside Pub" subtitle="" x="-192" y="480" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
-		<room id="20" name="The Rusty Lantern" subtitle="" x="-352" y="480" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+		<room id="18" name="Outside Pub" subtitle="" x="-192" y="448" w="96" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="20" name="Rusty Lantern" subtitle="" x="-352" y="448" w="96" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
 			<objects>Rug|Outlaws|(Dagger)</objects>
 		</room>
 		<line id="21">
 			<dock index="0" id="18" port="w" />
 			<dock index="1" id="20" port="e" />
 		</line>
-		<room id="22" name="Kitchen" subtitle="" x="-512" y="480" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+		<room id="22" name="Kitchen" subtitle="" x="-512" y="448" w="96" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
 			<objects>Cook|Onion</objects>
 		</room>
 		<line id="23">
 			<dock index="0" id="20" port="w" />
 			<dock index="1" id="22" port="e" />
 		</line>
-		<room id="24" name="Moor's Edge" subtitle="" x="-192" y="608" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="24" name="Moor's Edge" subtitle="" x="-192" y="512" w="96" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="25">
 			<dock index="0" id="18" port="s" />
 			<dock index="1" id="24" port="n" />
 		</line>
-		<room id="26" name="Moor Area" subtitle="" x="-256" y="768" w="224" h="128" region="Random" borderstyle="Solid" description="" roomFill="" secondFill="#804000" secondFillLocation="BottomRight" roomBorder="" roomLargeText="" roomSmallText="">
-			<objects>Eyes, Odors, Deep Mist, Gasses, Noises, Mud Flats|STAVE, SCROLL, POTION|Pterodactyl|Enemies: Eldritch Vapor, Guttersnipe</objects>
+		<room id="26" name="Moor Area" subtitle="" x="-256" y="576" w="224" h="128" region="Random" borderstyle="Solid" description="" roomFill="" secondFill="#804000" secondFillLocation="BottomRight" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="e">Eyes, Odors, Deep Mist, Gasses, Noises, Mud Flats|STAVE, SCROLL, POTION|Pterodactyl|Enemies: Eldritch Vapor, Guttersnipe</objects>
 		</room>
 		<line id="27">
 			<dock index="0" id="24" port="s" />
 			<dock index="1" id="26" port="n" />
 		</line>
-		<room id="30" name="Bluffs" subtitle="" x="-576" y="1152" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
-		<room id="32" name="Mizniaport" subtitle="" x="-736" y="1152" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="30" name="Bluffs" subtitle="" x="-416" y="768" w="96" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="32" name="Mizniaport" subtitle="" x="-832" y="768" w="96" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="33">
 			<dock index="0" id="30" port="w" />
 			<dock index="1" id="32" port="e" />
 		</line>
-		<room id="34" name="Skyway Entrance" subtitle="" x="-896" y="1152" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="34" name="Skyway Entrance" subtitle="" x="-992" y="768" w="128" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="35">
 			<dock index="0" id="32" port="w" />
 			<dock index="1" id="34" port="e" />
 		</line>
-		<room id="36" name="Private Way" subtitle="" x="-576" y="1024" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="36" name="Private Way" subtitle="" x="-704" y="704" w="96" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="37">
 			<dock index="0" id="32" port="ne" />
 			<dock index="1" id="36" port="sw" />
 		</line>
-		<room id="38" name="Stablehouse" subtitle="" x="-576" y="896" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="38" name="Stablehouse" subtitle="" x="-704" y="640" w="96" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="39">
 			<dock index="0" id="36" port="n" />
 			<dock index="1" id="38" port="s" />
 		</line>
-		<room id="40" name="Intersection" subtitle="" x="-1024" y="736" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="40" name="Intersection" subtitle="" x="-992" y="544" w="96" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="41">
 			<dock index="0" id="32" port="nw" />
 			<dock index="1" id="40" port="se" />
 		</line>
-		<room id="42" name="Shady Wall" subtitle="" x="-1152" y="832" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="42" name="Shady Wall" subtitle="" x="-1120" y="608" w="96" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="43">
 			<dock index="0" id="40" port="sw" />
 			<dock index="1" id="42" port="ne" />
 		</line>
-		<room id="44" name="South Market" subtitle="" x="-1024" y="640" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+		<room id="44" name="South Market" subtitle="" x="-992" y="480" w="96" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
 			<objects>(Fish cake dropped)</objects>
 		</room>
 		<line id="45">
 			<dock index="0" id="40" port="n" />
 			<dock index="1" id="44" port="s" />
 		</line>
-		<room id="46" name="North Market" subtitle="" x="-1024" y="512" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="46" name="North Market" subtitle="" x="-992" y="416" w="96" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="47">
 			<dock index="0" id="44" port="n" />
 			<dock index="1" id="46" port="s" />
 		</line>
-		<room id="48" name="Magick Shoppe" subtitle="" x="-1184" y="512" w="96" h="64" region="Shops" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="48" name="Magick Shoppe" subtitle="" x="-1152" y="416" w="128" h="32" region="Shops" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="49">
 			<dock index="0" id="46" port="w" />
 			<dock index="1" id="48" port="e" />
 		</line>
-		<room id="50" name="Outskirts" subtitle="" x="-864" y="384" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="50" name="Outskirts" subtitle="" x="-864" y="352" w="96" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="51">
 			<dock index="0" id="46" port="ne" />
 			<dock index="1" id="50" port="sw" />
 		</line>
 		<room id="52" name="Woods" subtitle="" x="-896" y="96" w="160" h="224" region="Random" borderstyle="Solid" description="" roomFill="" secondFill="#8000FF" secondFillLocation="BottomRight" roomBorder="" roomLargeText="" roomSmallText="">
-			<objects>RANDOM: Birches, Willow, Pine Grove, Catalpa, Talons, Eerie Copse, Clearing|STAVE, SCROLL|Enemies: cruel puppet, hellhound</objects>
+			<objects at="w">RANDOM: Birches, Willow, Pine Grove, Catalpa, Talons, Eerie Copse, Clearing|STAVE, SCROLL|Enemies: cruel puppet, hellhound</objects>
 		</room>
 		<line id="53">
 			<dock index="0" id="50" port="n" />
 			<dock index="1" id="52" port="s" />
 		</line>
-		<room id="57" name="South Chasm" subtitle="" x="-352" y="-160" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
-		<room id="19" name="Cove" subtitle="" x="-192" y="352" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="57" name="South Chasm" subtitle="" x="-384" y="-64" w="96" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="19" name="Cove" subtitle="" x="-224" y="256" w="96" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="59">
 			<dock index="0" id="12" port="sw" />
 			<dock index="1" id="19" port="ne" />
 		</line>
-		<room id="60" name="Hilltop" subtitle="" x="-352" y="352" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="60" name="Hilltop" subtitle="" x="-352" y="256" w="96" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="61">
 			<dock index="0" id="19" port="w" />
 			<dock index="1" id="60" port="e" />
 		</line>
-		<room id="62" name="Edge of Storms" subtitle="" x="-512" y="224" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="62" name="Edge of Storms" subtitle="" x="-512" y="192" w="128" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="63">
 			<dock index="0" id="60" port="nw" />
 			<dock index="1" id="62" port="se" />
@@ -158,7 +158,7 @@
 			<dock index="0" id="30" port="ne" />
 			<dock index="1" id="26" port="sw" />
 		</line>
-		<room id="29" name="Cellar" subtitle="" x="-576" y="640" w="224" h="192" region="Random" borderstyle="Solid" description="" roomFill="" secondFill="#8000FF" secondFillLocation="BottomRight" roomBorder="" roomLargeText="" roomSmallText="">
+		<room id="29" name="Cellar" subtitle="" x="-576" y="544" w="224" h="96" region="Random" borderstyle="Solid" description="" roomFill="" secondFill="#8000FF" secondFillLocation="BottomRight" roomBorder="" roomLargeText="" roomSmallText="">
 			<objects at="wsw">Enemies: rat-ant, crab|Musty Corridor (Moss), Shadowy Stacks (skeleton/amulet), Thron room(crab/nest), Bottom of Stacks (bottle of wine), Reeking Room|STAVE, SCROLL</objects>
 		</room>
 		<line id="31">
@@ -173,46 +173,46 @@
 			<dock index="0" id="52" port="ne" />
 			<dock index="1" id="57" port="sw" />
 		</line>
-		<room id="56" name="1st floor" subtitle="" x="-32" y="96" w="96" h="64" region="Random" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+		<room id="56" name="1st floor" subtitle="" x="-64" y="96" w="96" h="32" region="Random" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
 			<objects at="n">Room of Gloom, Creaky Corner, Crumbling Walls|ITM: Rod|ENEMY: Spider</objects>
 		</room>
 		<line id="58">
 			<dock index="0" id="14" port="ne" />
 			<dock index="1" id="56" port="sw" />
 		</line>
-		<room id="65" name="2nd floor" subtitle="" x="128" y="96" w="96" h="64" region="Random" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+		<room id="65" name="2nd floor" subtitle="" x="96" y="96" w="96" h="32" region="Random" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
 			<objects>2nd level, saggy ceiling, chamber of light, twilit room|ITM: Bubble gum card|ENEMY: Slug</objects>
 		</room>
 		<line id="66">
 			<dock index="0" id="56" port="e" />
 			<dock index="1" id="65" port="w" />
 		</line>
-		<room id="67" name="3rd floor" subtitle="" x="128" y="224" w="96" h="64" region="Random" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+		<room id="67" name="3rd floor" subtitle="" x="96" y="192" w="96" h="32" region="Random" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
 			<objects>3rd floor, saggy floor, dimly-lit room, dusty corner|ITM:scroll|ENEMY:dust bunny</objects>
 		</room>
 		<line id="68">
 			<dock index="0" id="65" port="s" />
 			<dock index="1" id="67" port="n" />
 		</line>
-		<room id="69" name="Lamp Room" subtitle="" x="128" y="352" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+		<room id="69" name="Lamp Room" subtitle="" x="96" y="288" w="96" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
 			<objects>Chest|ENEMY:Dorn</objects>
 		</room>
 		<line id="70">
 			<dock index="0" id="67" port="s" />
 			<dock index="1" id="69" port="n" />
 		</line>
-		<room id="71" name="Ruins" subtitle="" x="-32" y="1024" w="96" h="64" region="Implementors" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
-		<room id="72" name="Bridge" subtitle="" x="-192" y="1152" w="96" h="64" region="Implementors" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="71" name="Ruins" subtitle="" x="-128" y="736" w="96" h="32" region="Implementors" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="72" name="Bridge" subtitle="" x="-256" y="800" w="96" h="32" region="Implementors" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="73">
 			<dock index="0" id="71" port="sw" />
 			<dock index="1" id="72" port="ne" />
 		</line>
-		<room id="74" name="Forest" subtitle="" x="-352" y="1280" w="96" h="64" region="Implementors" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="74" name="Forest" subtitle="" x="-384" y="864" w="96" h="32" region="Implementors" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="75">
 			<dock index="0" id="72" port="sw" />
 			<dock index="1" id="74" port="ne" />
 		</line>
-		<room id="77" name="Cave" subtitle="" x="256" y="1280" w="96" h="64" region="Implementors" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="77" name="Cave" subtitle="" x="64" y="864" w="96" h="32" region="Implementors" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="76">
 			<dock index="0" id="71" port="se" />
 			<dock index="1" id="77" port="nw" />
@@ -221,36 +221,36 @@
 			<dock index="0" id="77" port="w" />
 			<dock index="1" id="74" port="e" />
 		</line>
-		<room id="79" name="Seashore" subtitle="" x="256" y="1408" w="96" h="64" region="Implementors" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="79" name="Seashore" subtitle="" x="64" y="928" w="96" h="32" region="Implementors" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="80">
 			<dock index="0" id="77" port="s" />
 			<dock index="1" id="79" port="n" />
 		</line>
-		<room id="81" name="Village" subtitle="" x="256" y="1536" w="96" h="64" region="Implementors" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="81" name="Village" subtitle="" x="64" y="992" w="96" h="32" region="Implementors" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="82">
 			<dock index="0" id="79" port="s" />
 			<dock index="1" id="81" port="n" />
 		</line>
-		<room id="83" name="Mist" subtitle="" x="256" y="1664" w="96" h="64" region="Implementors" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="83" name="Mist" subtitle="" x="64" y="1056" w="96" h="32" region="Implementors" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="84">
 			<dock index="0" id="81" port="s" />
 			<dock index="1" id="83" port="n" />
 		</line>
-		<room id="85" name="Fields" subtitle="" x="-32" y="1536" w="96" h="64" region="Implementors" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
-		<line id="86">
+		<room id="85" name="Fields" subtitle="" x="-128" y="992" w="96" h="32" region="Implementors" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="86" style="dashed">
 			<dock index="0" id="85" port="e" />
 			<dock index="1" id="81" port="w" />
 		</line>
-		<line id="87">
+		<line id="87" style="dashed">
 			<dock index="0" id="85" port="ne" />
 			<dock index="1" id="79" port="sw" />
 		</line>
-		<room id="88" name="City" subtitle="" x="-352" y="1408" w="96" h="64" region="Implementors" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="88" name="City" subtitle="" x="-384" y="928" w="96" h="32" region="Implementors" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="89">
 			<dock index="0" id="88" port="n" />
 			<dock index="1" id="74" port="s" />
 		</line>
-		<room id="90" name="Roadway" subtitle="" x="-352" y="1536" w="96" h="64" region="Implementors" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="90" name="Roadway" subtitle="" x="-384" y="992" w="96" h="32" region="Implementors" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="91">
 			<dock index="0" id="88" port="s" />
 			<dock index="1" id="90" port="n" />
@@ -259,16 +259,16 @@
 			<dock index="0" id="72" port="se" />
 			<dock index="1" id="79" port="nw" />
 		</line>
-		<line id="93">
+		<line id="93" style="dashed">
 			<dock index="0" id="90" port="e" />
 			<dock index="1" id="85" port="w" />
 		</line>
-		<line id="94">
+		<line id="94" style="dashed">
 			<dock index="0" id="88" port="se" />
 			<dock index="1" id="85" port="nw" />
 		</line>
-		<room id="95" name="Seaport" subtitle="" x="-32" y="1792" w="96" h="64" region="Implementors" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
-		<line id="96">
+		<room id="95" name="Seaport" subtitle="" x="-128" y="1120" w="96" h="32" region="Implementors" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="96" style="dashed">
 			<dock index="0" id="85" port="s" />
 			<dock index="1" id="95" port="n" />
 		</line>
@@ -276,75 +276,75 @@
 			<dock index="0" id="95" port="ne" />
 			<dock index="1" id="83" port="sw" />
 		</line>
-		<room id="101" name="Jungle" subtitle="" x="-352" y="1792" w="96" h="64" region="Implementors" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="101" name="Jungle" subtitle="" x="-384" y="1120" w="96" h="32" region="Implementors" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="103">
 			<dock index="0" id="101" port="e" />
 			<dock index="1" id="95" port="w" />
 		</line>
-		<room id="104" name="Mountainside" subtitle="" x="-480" y="1888" w="96" h="64" region="Implementors" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="104" name="Mountainside" subtitle="" x="-512" y="1184" w="96" h="32" region="Implementors" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="105">
 			<dock index="0" id="101" port="sw" />
 			<dock index="1" id="104" port="ne" />
 		</line>
-		<room id="106" name="Boutique" subtitle="" x="-736" y="1024" w="96" h="64" region="Shops" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="106" name="Boutique" subtitle="" x="-832" y="704" w="96" h="32" region="Shops" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="107">
 			<dock index="0" id="32" port="n" />
 			<dock index="1" id="106" port="s" />
 		</line>
-		<room id="108" name="Support Tower" subtitle="" x="-1376" y="1152" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
-		<room id="109" name="Jungle" subtitle="" x="-1248" y="1248" w="288" h="192" region="Random" borderstyle="Solid" description="" roomFill="" secondFill="#8000FF" secondFillLocation="BottomRight" roomBorder="" roomLargeText="" roomSmallText="">
-			<objects at="wsw">Creepers, Underbrush, birdcries, fungus,|ferns, idol, quicksilver||crocodile, bloodworm|Stick, scroll</objects>
+		<room id="108" name="Support Tower" subtitle="" x="-1440" y="768" w="96" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="109" name="Jungle" subtitle="" x="-1312" y="832" w="288" h="32" region="Random" borderstyle="Solid" description="" roomFill="" secondFill="#8000FF" secondFillLocation="BottomRight" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="n">Creepers, Underbrush, birdcries, fungus,|ferns, idol, quicksilver||crocodile, bloodworm|Stick, scroll</objects>
 		</room>
 		<line id="110">
 			<dock index="0" id="108" port="se" />
 			<dock index="1" id="109" port="nw" />
 		</line>
-		<room id="111" name="Support Tower" subtitle="" x="-1376" y="1472" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+		<room id="111" name="Support Tower" subtitle="" x="-1440" y="896" w="96" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
 			<objects at="wsw" />
 		</room>
 		<line id="112">
 			<dock index="0" id="109" port="sw" />
 			<dock index="1" id="111" port="ne" />
 		</line>
-		<room id="113" name="Support Tower" subtitle="" x="-928" y="1472" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+		<room id="113" name="Support Tower" subtitle="" x="-992" y="896" w="96" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
 			<objects at="wsw" />
 		</room>
 		<line id="114">
 			<dock index="0" id="109" port="se" />
 			<dock index="1" id="113" port="nw" />
 		</line>
-		<room id="115" name="Waterfall" subtitle="" x="-1152" y="1472" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+		<room id="115" name="Waterfall" subtitle="" x="-1216" y="992" w="96" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
 			<objects at="wsw" />
 		</room>
 		<line id="116">
 			<dock index="0" id="109" port="s" />
 			<dock index="1" id="115" port="n" />
 		</line>
-		<room id="117" name="Thriff" subtitle="" x="-1376" y="1664" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+		<room id="117" name="Thriff" subtitle="" x="-1344" y="1056" w="96" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
 			<objects at="wsw" />
 		</room>
 		<line id="118">
 			<dock index="0" id="115" port="sw" />
 			<dock index="1" id="117" port="ne" />
 		</line>
-		<room id="119" name="Bridge" subtitle="" x="-352" y="-288" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="119" name="Bridge" subtitle="" x="-384" y="-128" w="96" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="120" flow="oneWay">
 			<dock index="0" id="57" port="n" />
 			<dock index="1" id="119" port="s" />
 		</line>
-		<room id="121" name="North Chasm" subtitle="" x="-352" y="-416" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="121" name="North Chasm" subtitle="" x="-384" y="-192" w="96" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="122" flow="oneWay">
 			<dock index="0" id="121" port="s" />
 			<dock index="1" id="119" port="n" />
 		</line>
-		<room id="123" name="Ruins" subtitle="" x="-192" y="-736" w="320" h="256" region="Random" borderstyle="Solid" description="" roomFill="" secondFill="#FFFF00" secondFillLocation="BottomRight" roomBorder="" roomLargeText="" roomSmallText="">
+		<room id="123" name="Ruins" subtitle="" x="-224" y="-448" w="320" h="160" region="Random" borderstyle="Solid" description="" roomFill="" secondFill="#FFFF00" secondFillLocation="BottomRight" roomBorder="" roomLargeText="" roomSmallText="">
 			<objects>Aqueduct, Dusty, Glare, Courtyard, Plaza, Debris|POTION</objects>
 		</room>
 		<line id="124">
 			<dock index="0" id="121" port="ne" />
 			<dock index="1" id="123" port="sw" />
 		</line>
-		<room id="125" name="Fields of Frotzen" subtitle="" x="-864" y="640" w="224" h="256" region="Random" borderstyle="Solid" description="" roomFill="" secondFill="#0080FF" secondFillLocation="BottomRight" roomBorder="" roomLargeText="" roomSmallText="">
+		<room id="125" name="Fields of Frotzen" subtitle="" x="-864" y="512" w="224" h="96" region="Random" borderstyle="Solid" description="" roomFill="" secondFill="#0080FF" secondFillLocation="BottomRight" roomBorder="" roomLargeText="" roomSmallText="">
 			<objects>6 rooms + 1|SCROLL</objects>
 		</room>
 		<line id="126" style="dashed">
@@ -355,60 +355,60 @@
 			<dock index="0" id="62" port="w" />
 			<dock index="1" id="125" port="e" />
 		</line>
-		<room id="128" name="Mountain Pasture" subtitle="" x="-1536" y="1536" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+		<room id="128" name="Mountain Pasture" subtitle="" x="-1504" y="992" w="128" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
 			<objects at="wsw" />
 		</room>
 		<line id="129">
 			<dock index="0" id="117" port="nw" />
 			<dock index="1" id="128" port="se" />
 		</line>
-		<room id="130" name="Rock Wall" subtitle="" x="-1696" y="1536" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+		<room id="130" name="Rock Wall" subtitle="" x="-1632" y="992" w="96" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
 			<objects at="wsw" />
 		</room>
 		<line id="131">
 			<dock index="0" id="128" port="w" />
 			<dock index="1" id="130" port="e" />
 		</line>
-		<room id="132" name="Snowy Clearing" subtitle="" x="-1376" y="1792" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+		<room id="132" name="Snowy Clearing" subtitle="" x="-1376" y="1120" w="160" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
 			<objects at="wsw" />
 		</room>
 		<line id="133">
 			<dock index="0" id="117" port="s" />
 			<dock index="1" id="132" port="n" />
 		</line>
-		<room id="134" name="Mountain Trail" subtitle="" x="-1536" y="1792" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
-			<objects at="wsw" />
+		<room id="134" name="Mountain Trail" subtitle="" x="-1504" y="1120" w="96" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="n">Wight</objects>
 		</room>
 		<line id="135" style="dashed">
 			<dock index="0" id="132" port="w" />
 			<dock index="1" id="134" port="e" />
 		</line>
-		<room id="136" name="Peak" subtitle="" x="-1696" y="1792" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+		<room id="136" name="Peak" subtitle="" x="-1632" y="1120" w="96" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
 			<objects at="wsw" />
 		</room>
-		<line id="137">
+		<line id="137" style="dashed">
 			<dock index="0" id="134" port="w" />
 			<dock index="1" id="136" port="e" />
 		</line>
-		<room id="138" name="Laboratory" subtitle="" x="-1536" y="1920" w="96" h="64" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+		<room id="138" name="Laboratory" subtitle="" x="-1504" y="1184" w="96" h="32" region="NoRegion" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
 			<objects at="wsw" />
 		</room>
 		<line id="139">
 			<dock index="0" id="134" port="s" />
 			<dock index="1" id="138" port="n" />
 		</line>
-		<room id="140" name="Over Ruins" subtitle="" x="-1056" y="-736" w="96" h="64" region="Pterodactyl" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
-		<room id="141" name="Over Town" subtitle="" x="-768" y="-480" w="96" h="64" region="Pterodactyl" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="140" name="Over Ruins" subtitle="" x="-512" y="-576" w="96" h="32" region="Pterodactyl" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="141" name="Over Town" subtitle="" x="-384" y="-448" w="96" h="32" region="Pterodactyl" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="142">
 			<dock index="0" id="140" port="se" />
 			<dock index="1" id="141" port="nw" />
 		</line>
-		<room id="143" name="Over Bridge" subtitle="" x="-1216" y="-608" w="96" h="64" region="Pterodactyl" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="143" name="Over Bridge" subtitle="" x="-640" y="-512" w="96" h="32" region="Pterodactyl" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="144">
 			<dock index="0" id="140" port="sw" />
 			<dock index="1" id="143" port="ne" />
 		</line>
-		<room id="145" name="Over Forest" subtitle="" x="-1376" y="-480" w="96" h="64" region="Pterodactyl" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="145" name="Over Forest" subtitle="" x="-768" y="-448" w="96" h="32" region="Pterodactyl" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="146">
 			<dock index="0" id="143" port="sw" />
 			<dock index="1" id="145" port="ne" />
@@ -417,7 +417,7 @@
 			<dock index="0" id="145" port="e" />
 			<dock index="1" id="141" port="w" />
 		</line>
-		<room id="148" name="Over Shore" subtitle="" x="-768" y="-352" w="96" h="64" region="Pterodactyl" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="148" name="Over Shore" subtitle="" x="-384" y="-384" w="96" h="32" region="Pterodactyl" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="149">
 			<dock index="0" id="141" port="s" />
 			<dock index="1" id="148" port="n" />
@@ -426,7 +426,7 @@
 			<dock index="0" id="148" port="nw" />
 			<dock index="1" id="143" port="se" />
 		</line>
-		<room id="151" name="Over City" subtitle="" x="-1376" y="-352" w="96" h="64" region="Pterodactyl" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="151" name="Over City" subtitle="" x="-768" y="-384" w="96" h="32" region="Pterodactyl" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="152">
 			<dock index="0" id="145" port="s" />
 			<dock index="1" id="151" port="n" />
@@ -435,7 +435,7 @@
 			<dock index="0" id="151" port="e" />
 			<dock index="1" id="148" port="w" />
 		</line>
-		<room id="154" name="Over Roadway" subtitle="" x="-1376" y="-96" w="96" h="64" region="Pterodactyl" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="154" name="Over Roadway" subtitle="" x="-768" y="-320" w="96" h="32" region="Pterodactyl" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="155">
 			<dock index="0" id="151" port="s" />
 			<dock index="1" id="154" port="n" />
@@ -444,17 +444,17 @@
 			<dock index="0" id="154" port="ne" />
 			<dock index="1" id="141" port="sw" />
 		</line>
-		<room id="157" name="Over Village" subtitle="" x="-768" y="-224" w="96" h="64" region="Pterodactyl" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="157" name="Over Village" subtitle="" x="-384" y="-320" w="96" h="32" region="Pterodactyl" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="158">
 			<dock index="0" id="148" port="s" />
 			<dock index="1" id="157" port="n" />
 		</line>
-		<room id="159" name="Over Mist" subtitle="" x="-768" y="-96" w="96" h="64" region="Pterodactyl" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="159" name="Over Mist" subtitle="" x="-384" y="-256" w="96" h="32" region="Pterodactyl" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="160">
 			<dock index="0" id="157" port="s" />
 			<dock index="1" id="159" port="n" />
 		</line>
-		<room id="161" name="Over Seaport" subtitle="" x="-1056" y="32" w="96" h="64" region="Pterodactyl" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="161" name="Over Seaport" subtitle="" x="-512" y="-192" w="96" h="32" region="Pterodactyl" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="162">
 			<dock index="0" id="154" port="se" />
 			<dock index="1" id="161" port="nw" />
@@ -463,17 +463,17 @@
 			<dock index="0" id="159" port="sw" />
 			<dock index="1" id="161" port="ne" />
 		</line>
-		<room id="164" name="Over Jungle" subtitle="" x="-1216" y="32" w="96" h="64" region="Pterodactyl" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="164" name="Over Jungle" subtitle="" x="-640" y="-192" w="96" h="32" region="Pterodactyl" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="165">
 			<dock index="0" id="161" port="w" />
 			<dock index="1" id="164" port="e" />
 		</line>
-		<room id="166" name="Over Mountain" subtitle="" x="-1376" y="160" w="96" h="64" region="Pterodactyl" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="166" name="Over Mountain" subtitle="" x="-768" y="-128" w="96" h="32" region="Pterodactyl" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="167">
 			<dock index="0" id="164" port="sw" />
 			<dock index="1" id="166" port="ne" />
 		</line>
-		<room id="168" name="Over Castle" subtitle="" x="-1536" y="32" w="96" h="64" region="Pterodactyl" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="168" name="Over Castle" subtitle="" x="-896" y="-224" w="96" h="32" region="Pterodactyl" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="169">
 			<dock index="0" id="166" port="nw" />
 			<dock index="1" id="168" port="se" />
@@ -490,62 +490,62 @@
 			<dock index="0" id="101" port="ne" />
 			<dock index="1" id="81" port="sw" />
 		</line>
-		<room id="100" name="Desolation" subtitle="" x="288" y="-672" w="96" h="32" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+		<room id="100" name="Desolation" subtitle="" x="288" y="-512" w="96" h="32" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
 			<objects>(Minx should dig up truffle)</objects>
 		</room>
-		<room id="102" name="Highway" subtitle="" x="288" y="-608" w="96" h="32" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="102" name="Highway" subtitle="" x="288" y="-448" w="96" h="32" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="171">
 			<dock index="0" id="100" port="s" />
 			<dock index="1" id="102" port="n" />
 		</line>
-		<room id="172" name="Glacier" subtitle="" x="288" y="-544" w="96" h="32" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="172" name="Glacier" subtitle="" x="288" y="-384" w="96" h="32" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="173">
 			<dock index="0" id="102" port="s" />
 			<dock index="1" id="172" port="n" />
 		</line>
-		<room id="174" name="Frost" subtitle="" x="288" y="-480" w="96" h="32" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="174" name="Frost" subtitle="" x="288" y="-320" w="96" h="32" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="175">
 			<dock index="0" id="172" port="s" />
 			<dock index="1" id="174" port="n" />
 		</line>
-		<room id="176" name="Plaza" subtitle="" x="288" y="-416" w="96" h="32" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="176" name="Plaza" subtitle="" x="288" y="-256" w="96" h="32" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="177">
 			<dock index="0" id="174" port="s" />
 			<dock index="1" id="176" port="n" />
 		</line>
-		<room id="180" name="Void" subtitle="" x="288" y="-736" w="96" h="32" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="180" name="Void" subtitle="" x="288" y="-576" w="96" h="32" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="181">
 			<dock index="0" id="100" port="n" />
 			<dock index="1" id="180" port="s" />
 		</line>
-		<room id="178" name="Rubble" subtitle="" x="288" y="-352" w="96" h="32" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="178" name="Rubble" subtitle="" x="288" y="-192" w="96" h="32" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="179">
 			<dock index="0" id="176" port="s" />
 			<dock index="1" id="178" port="n" />
 		</line>
-		<room id="182" name="Battleground" subtitle="" x="288" y="-288" w="96" h="32" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+		<room id="182" name="Battleground" subtitle="" x="288" y="-128" w="96" h="32" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
 			<objects>(Throw truffle in trench)</objects>
 		</room>
 		<line id="183">
 			<dock index="0" id="178" port="s" />
 			<dock index="1" id="182" port="n" />
 		</line>
-		<room id="184" name="New Plaza" subtitle="" x="288" y="-224" w="96" h="32" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="184" name="New Plaza" subtitle="" x="288" y="-64" w="96" h="32" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="185">
 			<dock index="0" id="182" port="s" />
 			<dock index="1" id="184" port="n" />
 		</line>
-		<room id="186" name="ForestClearing" subtitle="" x="288" y="-160" w="96" h="32" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="186" name="ForestClearing" subtitle="" x="288" y="0" w="96" h="32" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="187">
 			<dock index="0" id="184" port="s" />
 			<dock index="1" id="186" port="n" />
 		</line>
-		<room id="188" name="Savannah" subtitle="" x="288" y="-96" w="96" h="32" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="188" name="Savannah" subtitle="" x="288" y="64" w="96" h="32" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="189">
 			<dock index="0" id="186" port="s" />
 			<dock index="1" id="188" port="n" />
 		</line>
-		<room id="190" name="Void" subtitle="" x="288" y="-32" w="96" h="32" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="190" name="Void" subtitle="" x="288" y="160" w="96" h="32" region="Time Travel" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
 		<line id="191">
 			<dock index="0" id="188" port="s" />
 			<dock index="1" id="190" port="n" />
@@ -596,7 +596,7 @@
 		<rooms>
 			<darknessStripeSize>24</darknessStripeSize>
 			<objectListOffset>4</objectListOffset>
-			<connectionStalkLength>32</connectionStalkLength>
+			<connectionStalkLength>12</connectionStalkLength>
 			<preferredDistanceBetweenRooms>64</preferredDistanceBetweenRooms>
 		</rooms>
 		<ui>
